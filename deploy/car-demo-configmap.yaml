@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: car-demo-config
 data:
-  DB_SERVER: "192.168.1.30"
+  DB_SERVER: "mariadb-service"
   DB_USER: "carlot"
   DB_PW: "I@mR00t"
   DB_NAME: "car_demo"
