@@ -9,7 +9,7 @@ http://app:8080 -> http://api:8088/api/vehicles -> MySQL/MariaDB
 ![sircarsalot](https://github.com/fullaware/car-demo/blob/main/sircarsalot.png)
 
 
-Prep database and database user in mariadb/mysql server:
+SQL used to prepare database and database user in mariadb/mysql server. This is handled via configmap:
 
 ```SQL
 CREATE DATABASE IF NOT EXISTS car_demo DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
