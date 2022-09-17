@@ -11,7 +11,7 @@ http://app:8080 -> http://api:8088/api/vehicles -> MySQL/MariaDB
 
 Prep database and database user in mariadb/mysql server:
 
-```
+```SQL
 CREATE DATABASE IF NOT EXISTS car_demo DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 GRANT SELECT, DELETE, INSERT, UPDATE ON car_demo.* TO 'carlot'@'%' IDENTIFIED By 'I@mR00t';
 --
