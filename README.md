@@ -30,7 +30,7 @@ CREATE TABLE `car_demo` (
   `car_color` varchar(40) NOT NULL,
   `car_hp` int(11) NOT NULL,
   PRIMARY KEY (`car_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `car_demo`
