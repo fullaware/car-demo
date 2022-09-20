@@ -12,7 +12,7 @@ http://app:8080 -> http://api:8088/api/vehicles -> MySQL/MariaDB
 SQL used to prepare database and database user in mariadb/mysql server. This is handled via configmap:
 
 ```SQL
-CREATE DATABASE IF NOT EXISTS car_demo DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE IF NOT EXISTS car_demo DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 GRANT SELECT, DELETE, INSERT, UPDATE ON car_demo.* TO 'carlot'@'%' IDENTIFIED By 'I@mR00t';
 --
 -- Table structure for table `car_demo`
