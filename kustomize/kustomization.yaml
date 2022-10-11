@@ -4,6 +4,7 @@ commonLabels:
   app: car-demo
 namespace: car-demo
 resources:
+  - namespace.yaml
   - api-deployment.yaml
   - api-service.yaml
   - app-deployment.yaml
