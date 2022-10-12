@@ -20,7 +20,7 @@ spec:
         app: car-demo
     spec:
       containers:
-      - image: fullaware/car-demo
+      - image: fullaware/car-demo:latest
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
